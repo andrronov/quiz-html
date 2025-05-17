@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/index.css">
-    <title>quizdot - главная</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles/index.css">
+  <title>quizdot - выбор квиза</title>
 </head>
 <body>
     <div class="wrapper">
-        <h1 class="title">Главная</h1>
-        <a href="./my-quizzes.html" class="btn">Мои квизы</a>
-        <a href="./create-quiz.html" class="btn">Создать квиз</a>
+        <h1 class="title" style="margin-top: 25px;">Выберите квиз</h1>
+        <div class="quiz-list" id="quiz-list"></div>
+        <a href="./index.html" class="btn" style="margin-bottom: 25px;">Назад</a>
     </div>
+
+  <script src="../scripts/quiz-list.js"></script>
+  <script src="../scripts/load-quizzes.js"></script>
 </body>
 </html>
